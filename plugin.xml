@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cm -->
+      <package
+            uri="http://cm/1.0"
+            class="cm.CmPackage"
+            genModel="modelOxy/cm.genmodel"/>
+   </extension>
+
+</plugin>
